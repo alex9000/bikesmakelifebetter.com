@@ -1,0 +1,231 @@
+/* Base CSS */
+
+a {
+	color: #00ACD4;
+}
+
+a:hover,
+a:focus{
+	color: #999;
+}
+
+.container {
+	max-width: 960px; 
+	
+}
+
+article {
+	margin: 0 0 30px 0;
+}
+
+blockquote {
+padding: 0;
+color: #00ACD4;
+border-left: 0;
+}
+
+blockquote p {
+	font-size: 24px;
+	line-height: 34px;
+}
+
+/* Navigation */
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-inner {
+	padding-right: 0;
+	padding-left: 0;
+	border: 0px;
+	border-top: solid 1px #B1B3B6;
+	border-bottom: solid 1px #B1B3B6;
+	-webkit-border-radius: 0;
+	border-radius: 0px;
+	background-color: #fff;
+	background-image: none; 
+	background-repeat: no-repeat;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	filter: none;
+}
+
+.navbar .nav li {
+	text-align: center;
+}
+
+.navbar .nav > li > a {
+	color: #00ACD4;
+}
+
+.navbar .nav > li > a:hover{
+	color: #999;
+}
+
+/* Collapsing Navigation */
+.btn.btn-navbar {
+position: relative;
+
+}
+
+.button-text {
+position: absolute;
+top: 3px;
+color: #999;
+left: 45px;
+font-size: 16px;
+}
+
+
+
+/* Modal */ 
+
+.modal {
+	width: 360px;
+	margin-left: -180px;
+}
+
+.modal-header h3 {
+	font: 19px/23px 'Raleway', serif;
+	font-weight: bold;
+}
+
+.modal-body {
+	max-height: 500px;
+}
+
+.modal-body p {
+	font: 14px/17px 'Raleway', serif;
+}
+
+.modal-body input[type="submit"] {
+	width: 150px;
+}
+
+/* Button */
+
+.btn-large {
+	font-size: 16px;
+}
+
+.btn-primary {
+	margin: 0 auto;
+	border: none;
+}
+
+.download .btn-primary {
+	padding: 0;
+	line-height: 38px;
+	max-width: 180px;
+}
+
+#secondary .btn-primary {
+	line-height: 28px;
+	width: 160px;
+}
+
+
+.btn-primary,
+.btn-primary:focus {
+	background: #bce0ee; /* Old browsers */
+	background: -moz-linear-gradient(top, #bce0ee 0%, #00acd4 50%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bce0ee), color-stop(50%,#00acd4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #bce0ee 0%,#00acd4 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #bce0ee 0%,#00acd4 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #bce0ee 0%,#00acd4 50%); /* IE10+ */
+	background: linear-gradient(to bottom, #bce0ee 0%,#00acd4 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bce0ee', endColorstr='#00acd4',GradientType=0 ); /* IE6-9 */
+}
+
+.btn-primary:hover,
+.btn-primary:active
+{
+	background: #00acd4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #00acd4 0%, #bce0ee 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00acd4), color-stop(100%,#bce0ee)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #00acd4 0%,#bce0ee 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #00acd4 0%,#bce0ee 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #00acd4 0%,#bce0ee 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #00acd4 0%,#bce0ee 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00acd4', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+}
+
+/* Form */
+input[type="submit"] {
+	width: 100px;
+	height: 32px;
+}
+
+
+/* Typography */
+hr {
+	margin: 33px 0;
+	border-bottom: 1px solid #B1B3B6;
+}
+
+h2 {
+	margin: 42px 0 30px 0;
+	font: 24px/27px 'Raleway', serif;
+}
+
+p {
+	font-size: 17px;
+	line-height: 23px;
+}
+
+ul {
+	list-style-image: url('../img/bullet.png');
+}
+
+li,
+h4 {
+/* list-style-type:disc; */
+font-size: 17px;
+line-height: 23px;
+
+}
+
+h4 {
+	margin: 0 0 0 0;
+	color: #00ACD4;
+}
+
+
+#primary {
+	margin-bottom: 165px;
+}
+
+.lead {
+	color: #00ACD4;
+	font-size: 24px;
+	line-height: 34px;
+	border-bottom: 1px solid #B1B3B6;
+	padding-bottom: 33px;
+	margin-bottom: 40px;
+}
+
+#primary h3 {
+	color: #999;
+	font-size: 19px;
+	line-height: 20px;
+	margin: 28px 0 18px 0;
+}
+
+#primary article h3 {
+	margin: 28px 0 0 0;
+}
+
+
+
+dd {
+	margin: 0 0 24px 0;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #B1B3B6;
+}
+
+#primary .list {
+	color: #00ACD4;
+	font-size: 23px;
+	line-height: 29px;
+}

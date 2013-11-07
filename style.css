@@ -1,0 +1,454 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial
+Description: A demo theme built to accompany the Treehouse blog post <a href="http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial">How to Build a WordPress Theme with Bootstrap</a>.
+Author: Zac Gordon
+Author URI: http://teamtreehouse.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+@import url('bootstrap/css/bootstrap.min.css');
+@import url('css/bootstrap-custom.css');
+
+body {
+	padding-top: 0;
+	padding-bottom: 40px;
+	font-family: 'Raleway', serif;
+	color: #999;
+}
+
+div,
+aside {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+
+.masthead h1 {
+	margin: 16px 0px 9px 6%;
+	/* outline: thin green dotted; */
+}
+
+.brand {
+	display: block;
+	width: 473px;
+	height: 87px;
+	background: transparent url(img/sprite.png) 0 -1094px no-repeat;
+	text-indent: -9999px;
+	padding: 9px 0 0 0;
+}
+
+/* Nivo Slider*/
+
+.slider-wrapper {
+	margin: 0 0 0 0;
+}
+
+.container .theme-light.slider-wrapper {
+	position: relative;
+	padding-top: 0;
+}
+
+/* .theme-light.slider-wrapper .nivo-controlNav {
+position: absolute; */
+
+/* top: 140px; */
+
+/* left: 50%; */
+
+/* margin-left: -21px; */
+
+#nivoslider-108 .nivo-caption {
+	top: -148px;
+	bottom: auto;
+	left: 50%;
+	margin-left: -38.5%;
+	padding: 25px 60px 0 60px;
+	width: 77%;
+	height: 148px;
+	background: #97999C;
+	text-align: center;
+	font-size: 20px;
+}
+
+.container .theme-light .nivo-directionNav {
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	margin-left: -38%;
+	width: 76%;
+}
+
+.container .theme-light .nivo-directionNav a {
+	width: 25px;
+	height: 44px;
+	background-color: transparent;
+}
+
+.container .theme-light .nivo-directionNav a:hover {
+	background-color: transparent;
+}
+.container .theme-light a.nivo-prevNav {
+	left: 0;
+	background: url('img/sprite.png') 0 -416px;
+}
+
+.container .theme-light a.nivo-prevNav:hover {
+	background-position: 0 -510px;
+}
+
+.container .theme-light a.nivo-nextNav {
+	right: 0;
+	background: url('img/sprite.png') 0 -604px;
+}
+
+.container .theme-light a.nivo-nextNav:hover {
+	background-position: 0 -699px;
+}
+
+.download {
+	margin: 15px 0 50px 0;
+	text-align: center;
+}
+
+.right-text {
+	text-align: right;
+}
+
+.left-text {
+	text-align: left;
+}
+
+.download .right-text p,
+.download .left-text p {
+	line-height: 38px;
+}
+
+
+
+
+/*Secondary Navigation*/
+
+.secondary-nav a.page,
+aside .page {
+	display: block;
+	width: 258px;
+	height: 158px;
+	background-image: url('img/sprite.png');
+	margin: 0 auto;
+	text-indent: -9999em;
+}
+.brief {
+	margin: 12px auto 0 auto;
+	padding: 15px 18px;
+	width: 258px;
+	background-color: #F5F6F6;
+	font-size: 12px;
+}
+
+.brief p {
+	font-size: 12px;
+	line-height: 17px;
+}
+
+.brief h2 {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 15px;
+	margin: 0;
+}
+
+/* Alternative Transportation*/
+.post-1464 {
+	background-position: 0 0
+}
+
+.post-1464:hover {
+	background-position: 0 -208px;
+}
+
+/* Sustainability */
+.post-1471 {
+	background-position: 0 -1236px;
+}
+
+.post-1471:hover {
+	background-position: 0 -1444px;
+}
+
+/* Employee Wellness */
+.post-1476 {
+	background-position: 0 -1652px;
+}
+
+.post-1476:hover {
+	background-position: 0 -1861px;
+}
+
+
+/* Footer */
+footer {
+	clear: both;
+}
+
+footer h6,
+footer p {
+	text-align: center;
+}
+
+/* Footer Share buttons*/
+
+.share-button {
+	display: inline-block;
+	width: 51px;
+	height: 50px;
+	background: url('img/sprite.png');
+}
+
+#facebook-icon {
+	background-position: 0 -794px;
+}
+
+#linkedin-icon {
+	background-position: 0 -994px;
+}
+
+#google-icon {
+	background-position: 0 -894px;
+}
+
+footer p {
+	line-height: 51px;
+}
+
+.newsletter-form p {
+	line-height: normal;
+}
+
+/* Newsletter */
+.newsletter-form {
+	text-align: center;
+}
+
+div.wpcf7-mail-sent-ok{
+	border: none;
+}
+
+/* Page Sidebar */
+
+aside .page {
+	margin: 0 0 12px 0;
+}
+
+aside .brief {
+	margin: 0 0 28px 0;
+}
+
+#sidebar-button-wrap {
+	width: 258px;
+	height: 100px;
+	background-color: #F5F6F6;
+	margin: 50px 0;
+	display: table;
+}
+
+.cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 15px;
+
+}
+
+.cell p {
+	margin: 10px 0;
+}
+
+/* Blog Home */
+.archive {
+	width: 258px;
+	background-color: #F5F6F6;
+	padding: 20px;
+}
+
+.archive h2 {
+	padding: 0 0 10px 0;
+	margin: 0 0 26px 0;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 1px solid #B1B3B6;
+}
+
+.archive li {
+	margin: 0 0 20px 0;
+}
+
+/* FAQ */
+dt {
+	color: #00ACD4;
+}
+
+/* Blog */
+
+p.excerpt {
+	margin-bottom: 32px;
+}
+
+/* Utility classes */
+
+.visible-iphone {
+	display: none;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+	
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+	.secondary-nav a.page {
+		width: 206.4px;
+		height: 126.4px;
+		background-size: 385.6px 2080px;
+	}
+	.secondary-nav .post-1464:hover {
+		background-position: 0 -166.4px;
+	}
+
+	.secondary-nav .post-1471 {
+		background-position: 0 -988.8px;
+	}
+
+	.secondary-nav .post-1471:hover {
+		background-position: 0 -1155px;
+	}
+
+	.secondary-nav .post-1476 {
+		background-position: 0 -1321.6px;
+	}
+
+	.secondary-nav .post-1476:hover {
+		background-position: 0 -1488.8px;
+	}
+
+	.secondary-nav .brief {
+		width: 206.4px;
+	}
+	
+	.download p {
+		font-size: 12px;
+	}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	
+	.navbar .btn-navbar{
+		float: left;
+	}
+	
+	.right-text,
+	.left-text{
+		text-align: center;
+		line-height: 14px;
+	}
+	
+	.show-grid {
+		outline: green dashed thin;
+	}
+	
+	.share {
+		text-align: center;
+	}
+
+}
+
+@media (min-width:610px) {
+.navbar .nav {
+	display: table;
+/*	margin: 0 0 10px;*/
+	width: 100%;
+}
+
+.navbar .nav li {
+	display: table-cell;
+	float: none;
+	width: 1%;
+}
+
+}
+
+/* Smartphones (portrait and landscape)  */
+@media (max-width: 480px) {	
+		.brand {
+			display: block;
+			width: 280px;
+			height: 100px;
+			padding: 9px 0 0 0;
+			background-position: 0 -2070px;
+	/*		outline: red thin dashed;*/
+		}
+	
+	
+	.hidden-iphone {
+		display: none !important;
+	}
+	
+	.visible-iphone {
+		display: block;
+		width: 280px;
+		height: 212px;
+		background: url('img/sprite.png') 0 -2230px;
+		margin: 0 auto;
+	}
+	
+	
+	.masthead h1{
+		margin: 0;
+	}
+
+	.modal{
+		width: 280px;
+		left: 50%;
+		margin-left: -140px;
+	}
+
+
+	#sidebar-button-wrap {
+		margin: 50px auto;
+	}
+
+	aside {
+		margin: 0 auto;
+	}
+
+	aside .page{
+		margin: 0 auto;
+	}
+	
+	aside .brief {
+		margin: 12px auto 20px auto;
+	}
+	
+	.newsletter-form {
+		margin-top: 30px;
+	}
+	
+	.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email.input-large.wpcf7-use-title-as-watermark.watermark {
+	width: 200px;
+	}
+
+}
+
+
